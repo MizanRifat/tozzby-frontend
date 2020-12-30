@@ -1,0 +1,77 @@
+@import "@kapost/react-component-slider/lib/stylesheets/component-slider";
+
+#root {
+    background-color: #F4F4F4;
+    font-size: 20px;
+    font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
+}
+
+#root .btn:focus {
+    box-shadow: none !important;
+    outline: none !important;
+}
+
+
+#root input {
+
+    border-radius: 0 !important;
+}
+
+#root input:focus {
+    /* border-color: inherit; */
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+
+
+.wrapper {
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+
+.productWrapper {
+    transition: .3 ease-in
+}
+
+.options {
+    transform: translateY(-20px, 20px);
+    /* opacity: 0; */
+}
+
+.productWrapper:hover .options {
+    /* background: red;
+     */
+    position: absolute;
+    top: 0;
+    opacity: 1;
+
+}
+
+.items {
+    height: 100px !important;
+    width: 100px !important;
+    background: red !important;
+}
+
+.slick-next,
+.slick-prev {
+    height: 21px;
+    width: 21px;
+    border-radius: 50%;
+    background-color: #FF5C00 !important;
+    color: white !important;
+}
+
+.slick-arrow:hover {
+    background-color: red !important;
+    color: wheat !important;
+}
+
+.slick-disabled {
+    display: none !important;
+}
+
+.MuiPaper-root {
+    background: red;
+}
